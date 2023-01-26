@@ -91,11 +91,11 @@ const char *wmApPassword = "layzspam0dule";
  * You can modify this via Web UI.
  */
 /** get or set the state of the specific access point configuration */
-bool enableAp = false;
+bool enableAp = true;
 /** get or set the name of the SSID */
-String apSsid = "ssid";
+String apSsid = "homenet4321";
 /** get or set the password for the SSID */
-String apPwd = "pwd";
+String apPwd = "";
 
 /*
  * WiFi Static IP
@@ -121,15 +121,15 @@ IPAddress ip4DnsSecondary(8,8,4,4);
  * You can modify this via Web UI.
  */
 /** get or set the state of the MQTT server connection */
-bool useMqtt = false;
+bool useMqtt = true;
 /** get or set the MQTT server IP address */
-IPAddress mqttIpAddress(192,168,0,20);
+IPAddress mqttIpAddress(192,168,50,226);
 /** get or set the MQTT server port */
 int mqttPort = 1883;
 /** get or set the MQTT server username */
-String mqttUsername = "username";
+String mqttUsername = "lazyspa";
 /** get or set the MQTT server password */
-String mqttPassword = "password";
+String mqttPassword = "lazyspa";
 /** get or set the unique MQTT client ID */
 String mqttClientId = DEVICE_NAME;
 /** get or set the MQTT topic name */
